@@ -75,7 +75,13 @@ export const Container = styled.div`
     }
   }
 
-  @media (max-width: 720px) {
+  @media (max-width: 900px) {
+    a span {
+      font-size: 1rem;
+    }
+  }
+
+  @media (max-width: 768px) {
     width: 95%;
 
     .sidebar-btn {
@@ -90,7 +96,7 @@ export const Container = styled.div`
     }
   }
 
-  @media (max-width: 520px) {
+  @media (max-width: 600px) {
 
   }
 `;

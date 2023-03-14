@@ -6,6 +6,7 @@ import { Container } from './styles';
 
 import Header from '../../components/Header';
 import Navbar from '../../components/Navbar';
+import Footer from '../../components/Footer';
 
 export default function Main() {
   return (
@@ -13,6 +14,7 @@ export default function Main() {
       <Header />
       <Navbar />
       <Outlet />
+      <Footer />
     </Container>
   );
 }

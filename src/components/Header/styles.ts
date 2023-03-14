@@ -93,7 +93,7 @@ export const Container = styled.header<ContainerProps>`
     color: ${({ theme }) => theme.colors.yellow};
   }
 
-  @media (max-width: 720px) {
+  @media (max-width: 760px) {
 
     .header-container {
       width: 95%;  
@@ -101,7 +101,7 @@ export const Container = styled.header<ContainerProps>`
     }
   }
 
-  @media (max-width: 520px) {
+  @media (max-width: 600px) {
 
     .header-container {
       justify-content: center;
