@@ -6,7 +6,7 @@ import { Container } from './styles';
 export default function Footer() {
   return (
     <Container>
-      <div>
+      <div className="grid-container">
         <div>
           <h3>Address Info</h3>
           <ul>
@@ -27,13 +27,41 @@ export default function Footer() {
         <div>
           <h3>Information</h3>
           <ul>
-            <li></li>
+            <li>
+              <a>Bookmark</a>
+            </li>
+            <li>
+              <a>Features</a>
+            </li>
+            <li>
+              <a>Sitemap</a>
+            </li>
+            <li>
+              <a>Lists</a>
+            </li>
+            <li>
+              <a>Contact Us</a>
+            </li>
           </ul>
         </div>
         <div>
           <h3>Extras</h3>
           <ul>
-            <li></li>
+            <li>
+              <NavLink to="/">Delivery</NavLink>
+            </li>
+            <li>
+              <NavLink to="/">Cart</NavLink>
+            </li>
+            <li>
+              <NavLink to="/">Terms conditions</NavLink>
+            </li>
+            <li>
+              <NavLink to="/">My account</NavLink>
+            </li>
+            <li>
+              <NavLink to="/">About us</NavLink>
+            </li>
           </ul>
         </div>
         <div>
