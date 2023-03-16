@@ -18,6 +18,8 @@ export const GlobalStyle = createGlobalStyle`
 
   body {
     background: ${({ theme }) => theme.colors.purple};
+    background-image: url(https://capricathemes.com/wordpress/WCM04/WCM040086/wp-content/themes/gamehoak/images/codezeel/body-bg.jpg);
+    background-size: cover;
     -webkit-font-smoothing: antialiased;
     color: ${({ theme }) => theme.colors.white};
   }
