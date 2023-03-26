@@ -4,8 +4,6 @@ export const Container = styled.footer`
 
   display: flex;
   justify-content: center;
-  position: absolute;
-  bottom: 0;
   width: 100%;
   background-position: top center;
   background-repeat: no-repeat;
