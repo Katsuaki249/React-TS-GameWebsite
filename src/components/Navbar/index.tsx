@@ -74,6 +74,7 @@ export default function Navbar() {
           <div>
             <NavLink to="/">
               <FaShoppingBag />
+              <span>(0) R$0,00</span>
             </NavLink>
           </div>
         </div>

@@ -73,4 +73,17 @@ export const Container = styled.footer`
       justify-content: space-between;
     }
   }
+
+  @media (max-width: 560px) {
+
+    .grid-container {
+      width: 95%;
+      display: flex;
+      flex-direction: column;
+    }
+
+    li {
+      display: none;
+    }
+  }
 `;
